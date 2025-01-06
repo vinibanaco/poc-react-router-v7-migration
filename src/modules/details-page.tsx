@@ -1,7 +1,5 @@
-import { useParams } from "react-router";
+import type { Route } from "./+types/details-page";
 
-export default function DetailsPage() {
-  const { name } = useParams<{ name: string }>();
-
-  return `Details: ${name}`;
+export default function DetailsPage({ params }: Route.ComponentProps) {
+  return `Details: ${params.name}`;
 }
