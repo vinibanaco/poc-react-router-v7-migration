@@ -5,7 +5,7 @@ export default function ListPage() {
     <>
       <span>List</span>
       <br />
-      <Link to="/recipes/pudding">Open Pudding modal</Link>
+      <Link to="/recipes/new">Open creation modal</Link>
       <br />
       <Outlet />
     </>

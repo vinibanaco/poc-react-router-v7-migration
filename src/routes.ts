@@ -5,7 +5,7 @@ export default [
     "/recipes",
     "./modules/list-page.tsx", // not migrated
     [
-      route("/recipes/pudding", "./modules/pudding-modal.tsx"), // not migrated
+      route("/recipes/new", "./modules/creation-modal.tsx"), // not migrated
     ]
   ),
   route("/recipes/:name", "./modules/details-page.tsx"),
