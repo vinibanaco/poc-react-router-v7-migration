@@ -1,4 +1,4 @@
-import Router from "./modules/router";
+import Router from "./modules/routing/legacy-router";
 
 function App() {
   return <Router />;
