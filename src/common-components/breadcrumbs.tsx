@@ -7,6 +7,9 @@ const breadcrumbNames = {
   [ROUTES.RECIPE_LIST]: "Recipes",
   [ROUTES.RECIPE_CREATION]: "New",
   [ROUTES.RECIPE_DETAILS]: "", // I know this component doesn't work with parameterized routes
+  [ROUTES.RECIPE_CATEGORY]: "",
+  [ROUTES.RECIPE_SEARCH]: "Search",
+  [ROUTES.RECIPE_VERSION]: "",
 } as const satisfies Record<(typeof ROUTES)[keyof typeof ROUTES], string>;
 
 function useLinks() {
